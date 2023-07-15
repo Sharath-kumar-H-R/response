@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive</title>
+    <style>
+        body{
+            background-color: #73A9AD;
+        }
+        @media (min-width:250px) and (max-width:500px){
+            body{
+                background-color: #C4DFDF;
+            }
+        }
+        @media (min-width:500px) and (max-width:750px){
+            body{
+                background-color: #D2E9E9;
+            }
+        }
+        @media (min-width:750px) and (max-width:1000px){
+            body{
+                background-color: #E3F4F4;
+            }
+        }
+        @media (min-width:1000px){
+            body{
+                background-image:linear-gradient(#4E4FEB,#B799FF,#472183);
+               
+            }
+        }
+        .img1{
+            height: 350px;
+            width: 300px;
+            box-shadow: -10px 0px 50px 3px;
+            border-radius: 20px;
+        }
+        .img2{
+            height: 350px;
+            width: 300px;
+            box-shadow: -10px 0px 50px 3px;
+            border-radius: 20px;
+        }
+        .container{
+            text-align: center;
+        }
+        h2{
+         text-align: center;
+         color: #0C134F;
+        }
+        h3{
+            text-align: center;
+        }
+        @media (min-width:1000px){
+        .container{
+            padding-top: 30px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            
+
+            /* grid-template-rows: 30% 20% 30% 20%; */
+        }
+        img{
+            float: left;
+           
+        }
+        img:hover{
+
+            transform: scale(1.25);
+        }
+         p{
+            text-align: center;
+            font-size: 25px;
+            color: #D8D8D8;
+            /* padding-top: 50px; */
+         }   
+         h3{
+            font-size: 60px;
+            color: #C0DBEA;
+         }
+         h2{
+            font-size: 80px;
+         }
+         h4{
+            font-size: 40px;
+         }
+        
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Polo cars </h2>
+    <h3>Work hard in silence while allowing <br>your new car to make noise.</h3>
+    <div class="container">
+        <div class="top">
+        <img src="https://i.pinimg.com/236x/a9/ee/e7/a9eee783bcccdd1b892e9917b757f2c0.jpg" alt="please check your connection" class="img1">
+ <h4>Relationship</h4>
+        <p>They develop personal relationships with their cars because they perceive their car as an extension of the self. Car Accessories, after market modifications, car insurance and periodic service gives them a feeling of self-care. People also see power and freedom and adventure in their vehicles.</p>        
+    </div>
+    <br/>
+        <br/>
+        <div class="bot">
+            <img src="https://i.pinimg.com/736x/b8/0f/6a/b80f6a319e73ae15e28372adf749382d.jpg" alt="please check your connection" class="img2">
+            <h4>Love</h4>
+            <p>A passionate affair fueled by sleek designs, roaring engines, and the thrill of the open road. It's an obsession that ignites hearts, revs adrenaline, and creates lifelong connections between drivers and their four-wheeled companions.</p>
+    </div>
+    </div>
+</body>
+</html>
